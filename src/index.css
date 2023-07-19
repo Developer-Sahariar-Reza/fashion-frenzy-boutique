@@ -1,0 +1,27 @@
+/* tailwind css accessories  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* google font import  */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Montserrat&display=swap");
+
+/* Tailwind CSS style */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+p,
+span,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
