@@ -1,0 +1,30 @@
+.error-anime {
+  width: 50%;
+  margin: 50px auto;
+}
+
+.error-info h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 25px;
+  color: #ef9273;
+}
+
+.go-back-btn {
+  text-align: center;
+  display: block;
+  width: 15%;
+  margin: 0 auto;
+  color: #ffffff;
+  background-color: #ef9273;
+  padding: 20px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.go-back-btn:hover {
+  background-color: #0d0d0d;
+}

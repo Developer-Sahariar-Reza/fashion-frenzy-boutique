@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Root from "./components/Layout/Root";
-import ErrorPage from "./components/ErrorPage/ErrorPage";
-import Home from "./components/Home/Home";
-import Shop from "./components/Shop/Shop";
-import Cart from "./components/Cart/Cart";
-import About from "./components/About/About";
+import Root from "./comonents/Layout/Root";
+import ErrorPage from "./comonents/ErrorPage/ErrorPage";
+import Home from "./comonents/Home/Home";
+import Shop from "./comonents/Shop/Shop";
+import Cart from "./comonents/Cart/Cart";
+import About from "./comonents/About/About";
 
 const router = createBrowserRouter([
   {
@@ -20,15 +20,15 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "shop",
+        path: "/shop",
         element: <Shop />,
       },
       {
-        path: "cart",
+        path: "/cart",
         element: <Cart />,
       },
       {
-        path: "about",
+        path: "/about",
         element: <About />,
       },
     ],

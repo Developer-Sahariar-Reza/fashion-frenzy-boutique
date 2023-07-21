@@ -1,33 +1,27 @@
-/* tailwind css accessories  */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* google font import */
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
 
-/* google font import  */
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Montserrat&display=swap");
-
-/* Tailwind CSS style */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Barlow Condensed", sans-serif;
+/* common css  */
+* {
+  font-family: "EB Garamond", serif;
+  padding: 0;
+  margin: 0;
+  background-color: #fef9f8;
 }
 
-p,
-span,
-a,
-button {
-  font-family: "Montserrat", sans-serif;
+.common-btn {
+  background-color: #ef9273;
+  border: 0;
+  padding: 15px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
 }
 
-.my-container {
-  @apply px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20;
-}
-
-.btn-primary {
-  @apply bg-[#2E4F4F] hover:bg-[#2C3333] px-3 py-4 font-semibold text-white rounded-md;
+.common-btn:hover {
+  background-color: #0d0d0d;
 }
