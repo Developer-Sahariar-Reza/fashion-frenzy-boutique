@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/4R7fBrT/Men1.jpg",
+    "name": "Men Suit 1",
+    "category": "Men",
+    "price": "$129"
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/njhW9rB/Men2.jpg",
+    "name": "Men Suit 2",
+    "category": "Men",
+    "price": "$79"
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/cC9d0sM/Men3.jpg",
+    "name": "Men Suit 3",
+    "category": "Men",
+    "price": "$89"
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/Jt2CLDW/woman1.jpg",
+    "name": "Women Suit 1",
+    "category": "Women",
+    "price": "$49"
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/yN7m6rh/Woman2.jpg",
+    "name": "Women Suit 2",
+    "category": "Women",
+    "price": "$69"
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/1dHkC7k/Woman3.jpg",
+    "name": "Women Suit 3",
+    "category": "Women",
+    "price": "$59"
+  },
+  {
+    "id": 7,
+    "img": "https://i.ibb.co/TbdxMhP/Kid1.jpg",
+    "name": "Kid Suit 1",
+    "category": "Kid",
+    "price": "$74"
+  },
+  {
+    "id": 8,
+    "img": "https://i.ibb.co/vJr9LLv/Kid2.jpg",
+    "name": "Kid Suit 2",
+    "category": "Kid",
+    "price": "$54"
+  },
+  {
+    "id": 9,
+    "img": "https://i.ibb.co/y535sQQ/Kid3.jpg",
+    "name": "Kid Suit 3",
+    "category": "Kid",
+    "price": "$119"
+  }
+]
