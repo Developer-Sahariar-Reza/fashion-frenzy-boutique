@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Lottie from "lottie-react";
 import home from "../../assets/Animations/Home.json";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -16,6 +17,14 @@ const Home = () => {
       </p>
       <div className="home-anime">
         <Lottie animationData={home} loop={true}></Lottie>
+      </div>
+      <div className="home-buttons-container">
+        <Link className="home-btn" to="/shop">
+          Shop Now
+        </Link>
+        <Link className="home-btn" to="/about">
+          Learn More
+        </Link>
       </div>
     </div>
   );
