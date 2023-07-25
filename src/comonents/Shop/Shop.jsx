@@ -2,14 +2,13 @@ import React from "react";
 import "./Shop.css";
 import { useLoaderData } from "react-router-dom";
 import ProductCard from "../ProductCard/ProductCard";
-import { addToDb } from "../../utilities/fakeDb";
+import { addToDb } from "../../utilities/fakeDB";
 
 const Shop = () => {
   const productData = useLoaderData();
 
   // Add To Cart btn handler function
   const handleAddToCart = (id) => {
-    console.log(id);
     addToDb(id);
   };
 
