@@ -5,7 +5,14 @@ import CartCard from "../CartCard/CartCard";
 
 const Cart = () => {
   const { cartArray } = useLoaderData();
-  console.log(cartArray);
+
+  // calculation
+  let total = 0;
+  if (cartArray.length > 0) {
+    for (const product of cartArray) {
+      total = total + product.price * product.quantity;
+    }
+  }
   return (
     <div className="cart">
       <h2 className="cart-title">
@@ -16,6 +23,12 @@ const Cart = () => {
         {cartArray.map((product) => (
           <CartCard key={product.id} product={product} />
         ))}
+      </div>
+
+      {/* cart calculation  */}
+      <div className="cart-calc-details">
+        <h3>Total Amount: ${total}</h3>
+        <p>Not including taxes and shipping costs.</p>
       </div>
     </div>
   );

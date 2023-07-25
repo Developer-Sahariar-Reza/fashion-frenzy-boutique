@@ -3,6 +3,7 @@ import "./CartCard.css";
 import { TrashIcon } from "@heroicons/react/24/solid";
 
 const CartCard = ({ product }) => {
+  console.log(product);
   const { img } = product;
   return (
     <div className="cart-card">
@@ -12,11 +13,11 @@ const CartCard = ({ product }) => {
       <div className="cart-details">
         <div className="cart-basic-info">
           <span>{product.name}</span>
-          <span>{product.price}</span>
+          <span>${product.price}</span>
         </div>
         <div className="cart-calculation">
-          <span>Quantity: </span>
-          <span>Total: $</span>
+          <span>Quantity: {product.quantity}</span>
+          <span>Total: ${product.price * product.quantity}</span>
         </div>
         <div className="cart-remove">
           <TrashIcon className="remove-icon" />

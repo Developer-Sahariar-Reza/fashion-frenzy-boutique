@@ -1,0 +1,15 @@
+.footer {
+  width: 75%;
+  margin: 100px auto 0;
+}
+
+.footer p {
+  margin-bottom: 10px;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.footer-tagline {
+  color: #ef9273;
+}

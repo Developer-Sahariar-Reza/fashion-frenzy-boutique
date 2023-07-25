@@ -15,3 +15,20 @@
   justify-content: center;
   align-items: center;
 }
+
+.cart-calc-details {
+  margin-top: 50px;
+  text-align: right;
+  width: 80%;
+}
+
+.cart-calc-details h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.cart-calc-details p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ef9273;
+}
