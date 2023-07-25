@@ -8,6 +8,7 @@ import Home from "./comonents/Home/Home";
 import Shop from "./comonents/Shop/Shop";
 import Cart from "./comonents/Cart/Cart";
 import About from "./comonents/About/About";
+import { productsAndCartData } from "./loader/getCart&ProductData";
 
 const router = createBrowserRouter([
   {
@@ -27,7 +28,7 @@ const router = createBrowserRouter([
       {
         path: "/cart",
         element: <Cart />,
-        loader: () => fetch("Products.json"),
+        loader: productsAndCartData,
       },
       {
         path: "/about",
