@@ -32,3 +32,15 @@
   font-weight: 500;
   color: #ef9273;
 }
+
+.cart-btn-container {
+  margin: 50px auto;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-btn-container a {
+  text-decoration: none;
+}
